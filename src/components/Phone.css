@@ -1,0 +1,65 @@
+.phone-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    border: 1px gray;
+    margin: 50px;
+    padding: 20px;
+
+}
+
+.phone-container img {
+    width: 80%;
+    border-radius: 20px;
+    margin: 0px;
+}
+
+.phone {
+    border: 1px solid rgb(225, 222, 222);
+
+    border-radius: 10px;
+    padding: 20px;
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+.description {
+    border: 1px solid gray;
+    background-color: rgb(250, 249, 251);
+    margin: auto;
+    padding: 20px;
+    width: 200px;
+}
+
+.btn {
+    background-color: blue;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn:hover {
+    background-color: brown;
+
+}
+
+.name {
+    color: rgb(253, 195, 87);
+}
+
+.text {
+    text-transform: uppercase;
+    color: aqua;
+    font-size: xx-large;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+.header {
+    background-color: rgb(183, 181, 181);
+    margin-top: 0;
+}
